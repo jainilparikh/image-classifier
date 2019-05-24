@@ -47,6 +47,8 @@ validation_generator = test_datagen.flow_from_directory('/home/jainil/program/da
         batch_size=100,
         class_mode='binary')
 
+
+
 classifier.fit_generator(
         train_generator,
         steps_per_epoch=2000,
